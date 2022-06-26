@@ -1,0 +1,31 @@
+name: Steam boiler
+description: Una caldera que seca el agua para extraer zinc
+type: HeatCrafter
+size: 3
+heatRequirement: 3
+overheatScale: 3
+maxEfficiency: 1
+hasItems: true
+hasLiquids: true
+liquidCapacity: 100
+itemCapacity: 20
+  craftTime: 300
+craftEffect: vapor
+updateEffect: vapor
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.2
+  }
+    },
+requirements: [
+silicon/60
+graphite/60
+titanium/50
+],
+category: crafting
+research: zinc
+outputItems:
+[
+  zinc/5
+]            
