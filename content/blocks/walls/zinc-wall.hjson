@@ -1,0 +1,10 @@
+type: Wall
+name: Zinc wall
+size: 1
+health: 400
+absorbLasers: true
+category: defense
+research: zinc
+requirements: [
+  zinc/7
+]

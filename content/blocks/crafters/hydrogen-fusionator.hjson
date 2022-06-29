@@ -1,0 +1,29 @@
+type: ImpactReactor
+name: Hydrogen-fusionator
+description: Un fusionador de Hidrogeno capaz de crear helio pero a la vez energia. 
+itemCapacity: 120
+size: 3
+plasma1: b3e5ff
+plasma2: d6f1ff
+hasPower: true
+hasItems: false
+hasLiquids: true
+warmupSpeed: .0005
+itemDuration: 30
+powerProduction: 1
+consumes: {
+  liquid: {
+    liquid: hydrogen
+    amount: .5
+  }
+  power: 33
+}
+requirements: [
+  zinc/200
+  silicon/100
+  titanium/150
+  neodymium/100
+]
+category: power
+research: impact-reactor
+outputLiquid: oxygen/1

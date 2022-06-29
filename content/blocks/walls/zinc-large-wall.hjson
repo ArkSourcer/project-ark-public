@@ -1,0 +1,10 @@
+type: Wall
+name: Zinc wall large
+size: 2
+health: 1450
+absorbLasers: true
+category: defense
+research: zinc-wall
+requirements: [
+  zinc/26
+]

@@ -1,0 +1,9 @@
+type: OreBlock
+name: Neodymium 
+wallOre: true
+variants: 3
+itemDrop: neodymium
+size: 1
+conductivePower: true
+absorbLasers: true
+playerUnmineable: true
