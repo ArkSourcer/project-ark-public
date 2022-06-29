@@ -1,9 +1,0 @@
-name: Zinc
-description: "Material poco resistente usado para crear aleaciones y hidrogeno"
-cost: 1.0
-hardness: 1
-explosiveness: 0.1
-color: "c5c7c9"
-category: copper
-research: copper
-alwaysUnlocked: true
