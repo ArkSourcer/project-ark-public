@@ -1,8 +1,0 @@
-name: bauxite
-description: "Material [red]anormalmente [lightgray]abundante en zonas arenosas, sirve para la produccion de aluminio"
-cost: 1.0
-hardness: 4
-color: "ea8878"
-category: copper
-research: neodymium
-alwaysUnlocked: true
