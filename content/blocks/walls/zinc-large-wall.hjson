@@ -1,10 +1,13 @@
 type: Wall
+description: Un muro mas fuerte que el muro de zinc pequeño, absorve laseres
 name: Zinc wall large
 size: 2
+breakEffect: drillSteam
+destroyEffect: drillSteam
 health: 1450
 absorbLasers: true
 category: defense
 research: zinc-wall
 requirements: [
-  zinc/26
+  zinc/27
 ]

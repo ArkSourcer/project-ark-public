@@ -1,4 +1,5 @@
 type: OreBlock
+description: Contiene rastros magneticos aun.
 name: Neodymium 
 wallOre: true
 variants: 3

@@ -1,0 +1,51 @@
+type: legs
+name: Artrei
+outlines: true
+hitSize: 12
+outlineRadius: 4
+outlineColor: 232835
+hovering: true
+rotateToBuilding: true
+drawShields: true
+targetGround: true
+targetAir: true
+visualElevation: 0.3
+health: 700
+mineFloor: true
+armor: 2
+speed: 0.9
+rotateSpeed: 3
+legCount: 4
+legLength: 6
+legBaseOffset: 3
+legExtension: -2
+legSpeed: 1
+maxStretch: 5
+allowLegStep: true
+lightRadius: 100
+lightColor: 84f591
+legMoveSpace: 3
+legSpeed: 0.1
+legSplashDamage: 10
+legSplashRange: 2
+legContinuousMove: true
+legStraightness: 0.3
+lockLegBase: true
+legMaxLength: 1.1
+legMinLength: 0.2
+legLengthScl: 0.97
+legForwardScl: 1.1
+legGroupSize: 4
+rippleScale: 0.2
+legPhysicsLayer: false
+researchCostMultiplier: 1
+
+abilities: [
+  {
+    type: ForceFieldAbility
+    radius: 20
+    regen: 0.2
+    max: 1000
+    cooldown: 700
+  }
+]

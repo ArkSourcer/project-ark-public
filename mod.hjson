@@ -1,6 +1,6 @@
-displayName: "Heavy Armament"
-name: "Heavy"
+displayName: "Project Paradox [BETA]"
+name: "Paradox"
 author: "Arkanic)"
-version: "0.2 (Testing)"
+version: "v1.0.1-BE"
 minGameVersion: 137
-repo: ArkanicXD/Heavy-Armament
+repo: ArkanicXD/project-paradox-public

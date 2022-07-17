@@ -4,6 +4,6 @@ cost: 1.0
 hardness: 1
 explosiveness: 0.1
 color: "c5c7c9"
-category: copper
-research: copper
+category: silicon
+research: silicon
 alwaysUnlocked: true

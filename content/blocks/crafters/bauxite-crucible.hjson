@@ -1,0 +1,38 @@
+type: GenericCrafter
+name: Bauxite crucible
+description: Un crisol de alta temperatura con la capacidad de producir aluminio
+size: 2
+drawer: {
+  type: drawMulti
+  drawers: [
+    {
+    type: DrawFrames
+  frames: 7
+  interval: 9.0
+}
+{
+type: DrawFlame
+color: ffcea3
+}
+  ]
+}
+itemCapacity: 125
+flameColor: ffceb5
+updateEffectChance: 0.2
+craftTime: 300
+consumes: {
+  power: 1
+  items: {
+    items: [
+      bauxite/10
+    ]
+  }
+}
+outputItem: aluminum/5
+category: crafting
+research: bauxite
+requirements: [
+  copper/100
+  silicon/100
+  zinc/50
+]

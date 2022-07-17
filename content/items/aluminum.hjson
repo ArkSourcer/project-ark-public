@@ -1,0 +1,9 @@
+name: aluminum
+description: "Material con poca resistencia termica, refleja luz y es buen conductor electrico"
+cost: 1.0
+hardness: 4
+charge: 0.4
+color: "aeb4c4"
+category: lead
+research: bauxite
+alwaysUnlocked: true

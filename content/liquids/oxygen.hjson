@@ -1,4 +1,5 @@
 type: liquid
+description: Nos mantiene vivos. Pero tambien es una excusa para fabricar agua!
 name: oxygen
 gas: true
 gasColor: "9fe7ed"
