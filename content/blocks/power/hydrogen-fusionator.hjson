@@ -1,0 +1,27 @@
+type: ImpactReactor
+name: Small hydrogen reactor
+description: "Un reactor pequeño que genera energia en cantidades pequeñas
+[lightgray]sarcasmo..."
+itemDuration: 50
+liquidCapacity: 100
+size: 3
+hasLiquids: true
+powerProduction: 2.2
+plasma1: b3e5ff
+consumes: {
+  power: 0.3
+  liquid: {
+    liquid: hydrogen
+    amount: 0.5
+  }
+}
+requirements: [
+  graphite/60
+  zinc/40
+  neodymium/20
+  silicon/20
+]
+category: power
+ambientSound: beam
+ambientSoundVolume: 0.5
+research: steam-generator

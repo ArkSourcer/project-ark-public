@@ -1,0 +1,13 @@
+type: Duct
+category: distribution
+name: Aluminum duct
+speed: 5
+armored: true
+trasparentColor: 66666619
+requirements: [
+  aluminum/4
+  tungsten/2
+  zinc/1
+
+]
+research: aluminum

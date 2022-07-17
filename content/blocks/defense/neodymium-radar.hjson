@@ -1,0 +1,25 @@
+type: radar
+name: neodymium radar
+description: Un radar 2 veces mas potente que el radar
+size: 2
+category: effect
+name: neodymium radar
+discoveryTime: 300
+rotateSpeed: 2.5
+glowColor: ab3400ff
+glowScl: 20
+glowMag: 2
+consumesPower: true
+consumes: {
+    power: 0.5
+}
+research: radar
+alwaysUnlocked: false
+
+requirements: [
+  silicon/40
+  neodymium/36
+  graphite/50
+]
+//radio BB
+fogRadius: 61

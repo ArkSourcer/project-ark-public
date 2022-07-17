@@ -1,0 +1,28 @@
+type: liquid
+description: Nos mantiene vivos. Pero tambien es una excusa para fabricar agua!
+name: oxygen
+gas: true
+gasColor: "9fe7ed"
+color: "9fe7ed"
+barColor: "c0ecf0"
+temperature: -1.83
+viscosity: 0.5
+explosiveness: 1
+heatCapacity: 0.1
+effect: freezing
+particleEffect: {
+    particles: 15
+    cone: 80
+    sizeFrom: 10
+    sizeTo: 9
+    useRotation: true
+    region: circle
+    offset: 5
+    lenFrom: 10
+    lenTo: 9
+    colorFrom: "fffffff"
+    colorTo: "ffffffff"
+}
+vaporEffect: true
+alwaysUnlocked: true
+research: hydrogen
