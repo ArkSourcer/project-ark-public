@@ -1,0 +1,10 @@
+name: Neodymium
+description: "Material altamente magnetico"
+cost: 1.0
+charge: 2
+hardness: 2
+color: "7c7c7d"
+category: zinc
+research: zinc
+alwaysUnlocked: true
+playerUnmineable: true

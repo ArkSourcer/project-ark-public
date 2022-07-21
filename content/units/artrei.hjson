@@ -1,0 +1,89 @@
+type: legs
+name: Artrei
+outlines: true
+hitSize: 12
+outlineRadius: 4
+outlineColor: 232835
+hovering: true
+rotateToBuilding: true
+drawShields: true
+targetGround: true
+targetAir: true
+visualElevation: 0.3
+health: 700
+mineFloor: true
+armor: 2
+speed: 0.9
+rotateSpeed: 3
+legCount: 4
+legLength: 6
+legBaseOffset: 3
+legExtension: -2
+legSpeed: 1
+maxStretch: 5
+allowLegStep: true
+lightRadius: 100
+lightColor: 84f591
+legMoveSpace: 3
+legSpeed: 0.1
+legSplashDamage: 10
+legSplashRange: 2
+legContinuousMove: true
+legStraightness: 0.3
+lockLegBase: true
+legMaxLength: 1.1
+legMinLength: 0.2
+legLengthScl: 0.97
+legForwardScl: 1.1
+legGroupSize: 4
+rippleScale: 0.2
+legPhysicsLayer: false
+researchCostMultiplier: 1
+weapons: [
+  {
+    name: artrei-weapon
+    top: false
+    x: 0
+    y: 0
+    rotate: false
+    rotateSpeed: 2.1
+    reload: 40
+    recoil: 2
+    shootY: 6
+    shootSound: shoot
+    shake: 2
+    bullet: {
+      type: MissileBulletType
+      range: 30
+      //mala idea recoil 2.. lamentable//
+      recoil: 1
+      speed: 3
+      laserAbsorb: true
+      damage: 10
+      lifetime: 35
+      collides: true
+      collidesTiles: true
+      collidesTeam: true
+      width: 5
+      height: 5
+      hitShake: 1
+      frontColor: bbfab4
+      backColor: c8fa98
+      lightColor: 81f777
+      trailColor: bbfab4
+      //no tocar... Estaba haciendo tests y tapa casi todo :)
+      smokeEffect: none
+      hitEffect: none
+      despawnEffect: smoke
+    }
+  }
+]
+abilities: [
+  {
+    type: ForceFieldAbility
+    radius: 20
+    regen: 0.2
+    max: 1000
+    cooldown: 700
+  }
+]

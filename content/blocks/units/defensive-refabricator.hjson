@@ -1,0 +1,39 @@
+type: Reconstructor
+health: 2500
+fogRadius: 25
+name: Defensive refabricator
+description: Cerca de la ultima mejora...
+size: 5
+suffix: "-dark"
+liquidCapacity: 50
+constructTime: 2500
+consumes: {
+  power: 6
+    items: {
+      items: [
+        neodymium/30
+        aluminum/40
+        graphite/120
+      ]
+    }
+  liquid: {
+    liquid: oxygen
+    amount: 0.2
+  }
+}
+upgrades: [
+  [artrei, etrai]
+]
+requirements: [
+  zinc/200
+  silicon/400
+  neodymium/200
+  graphite/300
+]
+category: units
+research: {
+  parent: defensive-fabricator
+  objectives: [neodymium,zinc]
+}
+alwaysUnlocked: true
+reseachCostMultiplier: 1.3

@@ -1,0 +1,20 @@
+type: ForceProjector
+name: Neodymium wall large
+health: 2150
+size: 2
+radius: 20
+shieldHealth: 2300
+cooldownNormal: 90.5
+consumes: {
+  power: 0.9
+}
+requirements: [
+  neodymium/55
+]
+hasItems: false
+itemCapacity: 0
+phaseUseTime: 2147483647
+phaseRadiusBoost: 0
+category: defense
+researchCostMultiplier: 2
+research: neodymium-wall

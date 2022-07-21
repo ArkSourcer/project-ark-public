@@ -1,0 +1,24 @@
+type: ShockMine
+description: Una mina terrestre 3 veces mas potente que una convencional!
+category: effect
+health: 200
+size: 2
+name: HSM shock mine
+timerDamage: 1.5
+cooldown: 60
+tileDamage: 10
+damage: 30
+length: 15
+tendrils: 9
+shots: 6
+inaccuracy: 20
+
+requirements: [
+  zinc/30
+  neodymium/20
+  silicon/30
+]
+research: shock-mine
+researchCostMultiplier: 1.2
+alwaysUnlocked: false
+details: Era necesario?

@@ -1,0 +1,27 @@
+type: radar
+name: Mega radar
+description: El ultimo y el mejor radar. Con un area de aumento mejorado, pero mas caro.
+size: 3
+category: effect
+discoveryTime: 700
+rotateSpeed: 3.5
+glowColor: ab3400ff
+glowScl: 210
+glowMag: 50
+consumesPower: true
+consumes: {
+    power: 2.1
+}
+research: neodymium-radar
+alwaysUnlocked: false
+researchCostMultiplier: 2.5
+
+requirements: [
+  silicon/150
+  zinc/250
+  aluminum/100
+  neodymium/150
+  graphite/200
+]
+//radio BB
+fogRadius: 90

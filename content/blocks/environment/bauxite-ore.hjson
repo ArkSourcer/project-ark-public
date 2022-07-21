@@ -1,0 +1,10 @@
+type: OreBlock
+description: Abundante en arena!.
+name: Bauxite 
+wallOre: true
+variants: 4
+itemDrop: bauxite
+size: 1
+conductivePower: true
+absorbLasers: true
+playerUnmineable: false

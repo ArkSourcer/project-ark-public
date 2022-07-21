@@ -1,0 +1,20 @@
+type: LaunchPad
+name: Reinforced launch pad
+description: "[red]Erekir moment..."
+size: 4
+itemCapacity: 200
+launchTime: 3000
+hasPower: true
+buildVisibility: campaignOnly
+consumes: {
+    power: 5
+}
+requirements: [
+  beryllium/300
+  silicon/200
+  graphite/250
+  tungsten/ 100
+]
+alwaysUnlocked: true
+research: lake
+researchCostMultiplier: 2.5

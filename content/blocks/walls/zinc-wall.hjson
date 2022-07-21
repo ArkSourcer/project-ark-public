@@ -1,0 +1,13 @@
+type: Wall
+description: Un muro levemente mas fuerte que el de cobre, capaz de absorver laseres
+name: Zinc wall
+size: 1
+breakEffect: drillSteam
+destroyEffect: drillSteam
+health: 400
+absorbLasers: true
+category: defense
+research: zinc
+requirements: [
+  zinc/7
+]
