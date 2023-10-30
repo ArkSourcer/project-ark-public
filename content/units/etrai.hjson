@@ -55,7 +55,7 @@ weapons: [
     y: 0
     rotate: false
     rotateSpeed: 2.1
-    reload: 15
+    reload: 20
     shootX: 9
     shootY: 10
     shootSound: shotgun
