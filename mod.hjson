@@ -1,6 +1,6 @@
-displayName: "Project Paradox [Alpha]"
-name: "Paradox"
-author: "Arkanic)"
+displayName: "Project Ark [Alpha]"
+name: "Ark"
+author: "ArkSourcer)"
 version: "v1.1-Alpha"
-minGameVersion: 141.2
-repo: ArkanicXD/project-paradox-public
+minGameVersion: 146
+repo: ArkSourcer/project-ark-public
