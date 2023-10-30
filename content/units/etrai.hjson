@@ -58,7 +58,7 @@ weapons: [
     reload: 50
     shootX: 9
     shootY: 10
-    shootSound: Etrai-attack
+    shootSound: topu-Etrai-attack
     shake: 3
     bullet: {
       type: MissileBulletType
