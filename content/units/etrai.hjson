@@ -55,7 +55,7 @@ weapons: [
     y: 0
     rotate: false
     rotateSpeed: 2.1
-    reload: 20
+    reload: 50
     shootX: 9
     shootY: 10
     shootSound: shotgun
@@ -68,7 +68,7 @@ weapons: [
       recoil: 0.5
       speed: 7
       laserAbsorb: true
-      damage: 20
+      damage: 40
       lifetime: 35
       collides: true
       collidesTiles: true
